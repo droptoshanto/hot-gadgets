@@ -1,11 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hot Gadgets</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="container">
+        <nav class="navbar navbar-expand-lg bg-body-white">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#product">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about-us">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-us">Contact Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+    <div class="container bgimage1">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h5>Mac Book Air M1</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, excepturi voluptas
+                                nesciunt natus soluta similique. Earum perferendis cumque placeat aliquam quas. Numquam
+                                voluptate facere eaque iusto? Doloribus reprehenderit voluptas nulla.</p>
+                            <button type="button" class="btn btn-dark">Buy Now >></button>
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h5>Google Assistant</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, excepturi voluptas
+                                nesciunt natus soluta similique. Earum perferendis cumque placeat aliquam quas. Numquam
+                                voluptate facere eaque iusto? Doloribus reprehenderit voluptas nulla.
+                            </p>
+                            <button type="button" class="btn btn-dark">Buy Now >></button>
+
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row align-items-center">
+                        <div class="col-md-7">
+                            <h5>JBL Speaker</h5>
+                            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae, excepturi voluptas
+                                nesciunt natus soluta similique. Earum perferendis cumque placeat aliquam quas. Numquam
+                                voluptate facere eaque iusto? Doloribus reprehenderit voluptas nulla.</p>
+                            <button type="button" class="btn btn-dark">Buy Now >></button>
+
+                        </div>
+                        <div class="col-md-5">
+                            <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="container container-2 bgimage2">
+        <div class="smartphone d-flex justify-content-between">
+            <div>
+                <h5>Smartphone</h5>
+            </div>
+            <div>
+                <a class="see-all" href="#">See All</a>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Redmi K30 Pro</h5>
+                        <p class="card-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore
+                            praesentium tempora accusamus eius velit repellat commodi pariatur non, fugiat
+                            exercitationem, ullam voluptatum.
+                        </p>
+                        <h5 class="price">$699</h5>
+                    </div>
+                    <div class="card-footer col-md-12 text-center">
+                        <button type="button" class="btn btn-dark">Buy Now >></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">iphone 11 Pro</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia
+                            nobis praesentium necessitatibus eligendi illum repellendus pariatur impedit, rem, odit
+                            voluptas exercitationem libero?
+                        </p>
+                        <h5 class="price">$999</h5>
+                    </div>
+                    <div class="card-footer col-md-12 text-center">
+                        <button class="btn btn-dark">Buy Now >></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Samsung Galaxy Note 10+</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural
+                            lead-in to additional content. This card has even longer content than the first to
+                            show that equal height action.
+                        </p>
+                        <h5 class="price">$799</h5>
+                    </div>
+                    <div class="card-footer col-md-12 text-center">
+                        <button class="btn btn-dark">Buy Now >></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container-2">
+        <div class="laptop d-flex justify-content-between">
+            <div>
+                <h5>Laptop</h5>
+            </div>
+            <div>
+                <p class="see-all">See All</p>
+            </div>
+        </div>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Asus VivoBOOK</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                            aliquid eum unde exercitationem, repellat voluptate laboriosam sequi veniam ex quo eius
+                            nobis voluptas soluta enim!
+                        </p>
+                        <h5 class="price">$999</h5>
+                    </div>
+                    <div class="card-footer col-md-12 text-center">
+                        <button class="btn btn-dark">Buy Now >></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Razer Blade 15</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat quas
+                            necessitatibus assumenda alias quia tempora possimus ipsa facere, nobis error.</p>
+                        <h5 class="price">$2799</h5>
+                    </div>
+                    <div class="card-footer col-md-12 text-center">
+                        <button class="btn btn-dark">Buy Now >></button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Xiaomi Mi Notebook Pro</h5>
+                        <p class="card-text">This is a wider card with supporting text below as a natural
+                            lead-in to additional content. This card has even longer content than the first
+                            to
+                            show that equal height action.
+                        </p>
+                        <h5 class="price">$999</h5>
+                    </div>
+                    <div class="card-footer col-md-12 text-center">
+                        <button class="btn btn-dark">Buy Now >></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container container-2">
+        <div class="catagories">
+            <h5>Catagories</h5>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-3 card cat1 justify-content-center">
+                <img src="images/Categories/bag.png" alt="">
+                <h6 class="cat-text">Bag</h6>
+            </div>
+            <div class="col-md-3">
+                <div class="card cat2 justify-content-center">
+                    <img src="images/Categories/perfume.png" alt="">
+                    <h6 class="cat-text">Beauty</h6>
+                </div>
+                <div class="card cat3 justify-content-center">
+                    <img src="images/Categories/shoe.png" alt="">
+                    <h6>Shoes</h6>
+                </div>
+            </div>
+            <div class="col-md-6 justify-content-center">
+                <img class="cat5" src="images/Categories/pale-order.png " alt="">
+            </div>
+        </div>
+    </div>
+    <footer>
+        <p>©2024 All rights reserved Hot Gadgets</p>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
