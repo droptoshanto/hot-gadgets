@@ -45,25 +45,25 @@
 .catagories{
     text-align: center;
 }
-.cat2, .cat3{
-    margin-bottom: 40px;
-    padding: 30px 30px;
-    text-align: center;
-    width: 180px;
-    height: 200px;
+.pale-order{
+    width: 500px;
+}
+.cat2{
+    width: 200px;
+
 }
 .cat1{
-    padding: 30px 30px;
-    text-align: center;
-    width: 180px;
+    width: 200px;
+}
+.cat3{
+    width: 200px;
     height: 200px;
+    box-shadow: 5px 5px 10px lightgray;
+    position: relative;
+    left: -10px;
 }
-.cat-text{
-    margin-top: 20px;
-}
-.cat5{
-    width: 600px;
-}
+
+
 footer{
     text-align: center;
     font-size: 10px;
