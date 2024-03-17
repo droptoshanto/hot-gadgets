@@ -16,8 +16,8 @@
     background-repeat: no-repeat;
     background-color: white;
     background-position: center left;
-
 }
+
 .row{
     padding: 20px 30px;
 }
@@ -45,23 +45,20 @@
 .catagories{
     text-align: center;
 }
+.underline-block {
+    width: 100px;
+    height: 8px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, #ff8206, #ffff00);
+}
+
 .pale-order{
     width: 500px;
 }
-.cat2{
-    width: 200px;
 
-}
-.cat1{
-    width: 200px;
-}
-.cat3{
-    width: 200px;
-    height: 200px;
-    box-shadow: 5px 5px 10px lightgray;
-    position: relative;
-    left: -10px;
-}
+
+
+
 
 
 footer{
